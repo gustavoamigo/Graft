@@ -43,7 +43,7 @@ import {
 export const CODE_EXTENSIONS = [
   ".ts", ".tsx", ".js", ".jsx", ".mjs", ".cjs",
   ".py", ".go", ".rs", ".java", ".kt", ".scala",
-  ".rb", ".php", ".c", ".h", ".cpp", ".hpp", ".cc",
+  ".rb", ".php", ".c", ".h", ".cpp", ".hpp", ".cc", ".cppm",
   ".cs", ".swift", ".sql", ".sh", ".proto",
 ];
 

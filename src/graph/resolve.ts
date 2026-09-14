@@ -20,7 +20,7 @@ import { genericLangOf } from "./generic.js";
 
 const IMPORT_EXTS = [".ts", ".tsx", ".mts", ".cts", ".js", ".jsx", ".mjs", ".cjs", ".py"];
 /** C/C++ source + header extensions, for resolving `#include` targets. */
-const C_EXT = /\.(c|h|cc|cpp|cxx|hpp|hh|hxx|inl|ipp|c\+\+|h\+\+)$/i;
+const C_EXT = /\.(c|h|cc|cpp|cxx|hpp|hh|hxx|inl|ipp|cppm|c\+\+|h\+\+)$/i;
 /** Python source + stub extensions, for the constructor-call fallback below. */
 const PY_EXT = /\.pyi?$/i;
 /** What a bare Python call falls back to when no function of that name exists:
